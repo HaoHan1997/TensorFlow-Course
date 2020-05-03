@@ -1,9 +1,4 @@
 
-.. figure:: _img/mainpage/teaser.gif
-  :target: https://machinelearningmindset.com/blog/
-  
-.. figure:: _img/mainpage/subscribe.gif
-  :target: https://machinelearningmindset.com/subscription/
 
 ********************
 `TensorFlow Course`_
@@ -14,6 +9,8 @@
     :target: https://github.com/ellerbrock/open-source-badge/
 .. image:: https://img.shields.io/twitter/follow/machinemindset.svg?label=Follow&style=social
     :target: https://twitter.com/machinemindset
+.. image:: https://zenodo.org/badge/151300862.svg
+   :target: https://zenodo.org/badge/latestdoi/151300862
 
 
 This repository aims to provide simple and ready-to-use tutorials for TensorFlow.
@@ -31,6 +28,45 @@ Table of Contents
 .. contents::
   :local:
   :depth: 3
+
+
+==========================================
+Download Free TensorFlow Roadmap EBook
+==========================================
+
+.. raw:: html
+
+   <div align="center">
+
+.. raw:: html
+
+ <a href="http://www.machinelearningmindset.com/tensorflow-roadmap-ebook/" target="_blank">
+  <img width="710" height="500" align="center" src="https://github.com/machinelearningmindset/TensorFlow-Course/blob/master/_img/mainpage/booksubscribe.png"/>
+ </a>
+
+.. raw:: html
+
+   </div>
+
+==========================================
+Slack Group
+==========================================
+
+.. raw:: html
+
+   <div align="center">
+
+.. raw:: html
+
+ <a href="https://www.machinelearningmindset.com/slack-group/" target="_blank">
+  <img width="1033" height="350" align="center" src="https://github.com/machinelearningmindset/TensorFlow-Course/blob/master/_img/0-welcome/joinslack.png"/>
+ </a>
+
+.. raw:: html
+
+   </div>
+
+
 
 ~~~~~~~~~~~~~~~~~~~~~
 What is TensorFlow?
@@ -162,7 +198,7 @@ Basic Machine Learning
 +----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
 | #  |       topic                |   Source Code                                                                          |                                              |
 +====+============================+========================================================================================+==============================================+
-| 4  | *Linear Models*            |`Linear Regression`_  / `IPython <LinearRegressionipython_>`_                           | `Documentation <Documentationlr_>`_          |
+| 4  | *Linear Models*            |`Linear Regression`_  / `IPython <LinearRegressionipython_>`_                           | `Tutorial      <Documentationlr_>`_          |
 +----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
 | 5  | *Predictive Models*        | `Logistic Regression`_  / `IPython <LogisticRegressionipython_>`_                      | `Documentation <LogisticRegDOC_>`_           |
 +----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
@@ -241,7 +277,7 @@ Neural Networks
 
 .. _Linear Regression: codes/python/2-basics_in_machine_learning/linear_regression
 .. _LinearRegressionipython: codes/ipython/2-basics_in_machine_learning/linear_regression/code/linear_regression.ipynb
-.. _Documentationlr: docs/tutorials/2-basics_in_machine_learning/linear_regression
+.. _Documentationlr: https://www.machinelearningmindset.com/linear-regression-with-tensorflow/
 
 .. _Logistic Regression: codes/python/2-basics_in_machine_learning/logistic_regression
 .. _LogisticRegressionipython: codes//ipython/2-basics_in_machine_learning/logistic_regression/code/logistic_regression.ipynb
@@ -300,23 +336,6 @@ Some Useful Tutorials
   * `Terry Um’s TensorFlow Exercises <https://github.com/terryum/TensorFlow_Exercises>`_ - Re-create the codes from other TensorFlow examples
   * `Classification on time series <https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition>`_ - Recurrent Neural Network classification in TensorFlow with LSTM on cellphone sensor data
 
-==========================================
-Download Free TensorFlow Roadmap EBook
-==========================================
-
-.. raw:: html
-
-   <div align="center">
-
-.. raw:: html
-
- <a href="http://www.machinelearningmindset.com/tensorflow-roadmap-ebook/" target="_blank">
-  <img width="850" height="600" align="center" src="https://github.com/machinelearningmindset/TensorFlow-Course/blob/master/_img/mainpage/booksubscribe.png"/>
- </a>
-
-.. raw:: html
-
-   </div>
 
 =============
 Contributing
@@ -362,9 +381,3 @@ Developers
 <https://github.com/astorfi>`_, `Personal Website
 <https://astorfi.github.io/>`_, `Linkedin
 <https://www.linkedin.com/in/amirsinatorfi/>`_ ]
-
-================
-Acknowledgement
-================
-
-I have taken huge efforts in this project for hopefully being a small part of TensorFlow world. However, it would not have been plausible without the kind support and help of my friend and colleague `Domenick Poster <https://github.com/vonclites/>`_ for his valuable advices. He helped me for having a better understanding of TensorFlow and my special appreciation goes to him.
